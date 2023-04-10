@@ -1,7 +1,9 @@
 export function Profile(){
     return(
         <div>
-            Profile
+            <h1>
+                profile
+            </h1>
         </div>
     )
 }
