@@ -1,9 +1,11 @@
+import styles from './home.css'
+
+
+
 export function Home(){
     return (
-        <div> 
-            <h1>Home
-                
-            </h1>
+        <div className={styles.title}> 
+            <h1>Search Devs</h1>
         </div>
     )
 }

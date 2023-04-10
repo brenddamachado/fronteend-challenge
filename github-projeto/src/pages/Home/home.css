@@ -1,0 +1,11 @@
+h1{
+ /* cor e intensidade da fonte */
+    color: #5e5e5e;
+    font-weight: 200;
+/*O código abaixo irá centralizar o parágrafo no meio da tela*/     
+position: absolute; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
