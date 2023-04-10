@@ -8,11 +8,11 @@ export function Home() {
             <h1>Search Devs</h1>
         </div>
 
-        <div>
-          <input type="text" placeholder="Type the username here..." />
+        <div > 
+          <input className="user" type="text" placeholder="Type the username here..." />
         </div>
-        
-        <div>
+
+        <div className="pesquisar">
             <button>Buscar</button>
         </div>
         

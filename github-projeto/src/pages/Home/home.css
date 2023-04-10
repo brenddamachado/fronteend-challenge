@@ -2,13 +2,23 @@ h1{
  /* cor e intensidade da fonte */
     color: #5e5e5e;
     font-weight: 200;
-/*O código abaixo irá centralizar o parágrafo no meio da tela*/     
-
-  
 }
 .tudo{
+    /*O código abaixo irá centralizar o parágrafo no meio da tela*/     
     position: absolute; 
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.user{
+    /* afastamento da borda */
+    padding-left: 16px;
+    /* altura e largura */
+    width: 320px;
+    height: 30px;
+    /* borda e cor */
+    border-radius: 6px;
+    border: 1px solid #5e5e5e;
+    
+
 }
