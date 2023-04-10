@@ -1,9 +1,20 @@
+
+
 export function Profile(){
     return(
-        <div>
-            <h1>
-                profile
-            </h1>
-        </div>
+        <>
+            <section className="section">
+                <div>
+                <img src="" alt="" />
+                <h1>nome</h1>
+                <h3>username</h3>
+                <h4>informaçõs</h4>
+                <button> Voltar</button>
+                </div>
+            </section>
+            <section>
+                <h1>repositorio</h1>
+            </section>
+        </>
     )
 }
