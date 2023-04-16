@@ -1,6 +1,7 @@
 import styles from "./home.css";
 import { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 export function Home() {
   // barra de pesquisa, user
@@ -35,7 +36,9 @@ export function Home() {
         </div>
 
         <div className="pesquisar">
+          <Link to="/Profile/index">
           <button onClick={() => pesquisa()}>Buscar</button>
+          </Link>
         </div>
       </div>
     </>
